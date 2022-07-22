@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://127.0.0.1:5500/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Awesome Website</title>
+    
+<link rel="stylesheet" href="./The Awesome Website_files/style.css"></head>
+
+<body>
+    <div class="header">
+        <div class="logo">Header Logo</div>
+        <div class="links">
+            <ul>
+                <li> <a href="http://127.0.0.1:5500/#">header link one</a></li>
+                <li> <a href="http://127.0.0.1:5500/#">header link two</a></li>
+                <li> <a href="http://127.0.0.1:5500/#">header link three</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="left">
+            <div class="main-text">This website is awesome</div>
+            <div class="secondary-text">This website helps you to count to four. Obviously I'm just trying to learn CSS.
+            </div>
+            <button>Sign up</button>
+        </div>
+        <img class="right" src="./The Awesome Website_files/artworks-000153983978-ksta8a-t500x500.jpg" alt="A copyright free image">
+    </div>
+    <div class="count">
+        <div class="count-header">Count to four</div>
+        <div class="images">
+            <div class="image">
+                <img src="./The Awesome Website_files/printable-number-1-silhouette.png" alt="number 1">
+                <p>Number 1</p>
+            </div>
+            <div class="image">
+                <img src="./The Awesome Website_files/numer-na-dom-2-czarny.jpg" alt="number 2">
+                <p>Number 2</p>
+            </div>
+            <div class="image">
+                <img src="./The Awesome Website_files/free-printable-number-stencils-number-3-stencil-large-black-683x1024.jpg" alt="number 3">
+                <p>Number 3</p>
+            </div>
+            <div class="image">
+                <img src="./The Awesome Website_files/download.png" alt="number 4">
+                <p>Number 4</p>
+            </div>
+        </div>
+    </div>
+    <div class="quote">
+        <div class="quote-text">Lorem ipsum dolor sit amet, ut duo purto velit sententiae,
+            ornatus percipit salutatus ut est.
+            At semper nostrud constituam cum, ut utamur veritus pri.
+            Propriae insolens aliquando has ei, nulla eruditi honestatis sit ad, choro perfecto cu nam.
+        </div>
+        <div class="writer">-Lorem ipsum generator</div>
+    </div>
+    <div class="sign-up">
+        <div class="sign-up-box">
+            <div class="sign-up-text">
+                <div class="main">Call to action! It's time!</div>
+                <div class="secondary">Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <button>Sign up</button>
+        </div>
+    </div>
+    <div class="footer">Copyright © The Odin Project 2022</div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

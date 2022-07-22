@@ -58,7 +58,7 @@ a {
     color: var(--grey);
 }
 
-button {
+.hero button {
     background-color: var(--blue);
     color: var(--white);
 }
@@ -69,39 +69,7 @@ button {
     color: var(--dark);
 }
 
-.quote {
-    background-color:var(--grey);
-}
-
-.quote-text {
-    font-size: 36px;
-    font-style:italic;
-    font-weight: 300;
-    color: var(--dark);
-}
-
-.writer {
-    font-weight:bold;
-    font-size:24px;
-}
-
-.sign-up-box {
-    background-color: var(--blue);
-}
-.sign-up .main {
-    font-size: 24px;
-    color:var(--white);
-}
-
-.sign-up .secondary {
-    font-size:18px;
-    color:var(--grey);
-}
-
 .footer {
     background-color: var(--dark);
     color: var(--grey);
-    display:flex;
-    align-items: center;
-    justify-content: center;
 }
