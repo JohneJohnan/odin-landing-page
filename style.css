@@ -63,6 +63,20 @@ button {
     color: var(--white);
 }
 
+.count {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:32px;
+}
+
 .count-header {
     font-size: 36px;
     font-weight: 900;
@@ -71,6 +85,10 @@ button {
 
 .quote {
     background-color:var(--grey);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote-text {
@@ -83,11 +101,17 @@ button {
 .writer {
     font-weight:bold;
     font-size:24px;
+    display:flex;
+    justify-content: end;
 }
 
 .sign-up-box {
     background-color: var(--blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .sign-up .main {
     font-size: 24px;
     color:var(--white);
